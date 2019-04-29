@@ -1,6 +1,6 @@
-package com.dx777.yasirnramaya.aburafelsystem
+package com.dx777.yasirnramaya.aburafelsystem.servies
 
-import com.dx777.yasirnramaya.aburafelsystem.login.LoginResponse
+import com.dx777.yasirnramaya.aburafelsystem.activities.login.LoginResponse
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.POST

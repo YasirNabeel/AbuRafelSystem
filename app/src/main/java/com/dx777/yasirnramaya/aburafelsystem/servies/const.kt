@@ -1,4 +1,4 @@
-package com.dx777.yasirnramaya.aburafelsystem
+package com.dx777.yasirnramaya.aburafelsystem.servies
 
 import com.chibatching.kotpref.KotprefModel
 import okhttp3.OkHttpClient
@@ -45,6 +45,7 @@ object ApiUtils {
     val BASE_URL = "https://aborafel.herokuapp.com/api/v1/auth/"
 
     val apiService: NetworkInInterface
-        get() = RetrofitClient.getClient(BASE_URL)!!.create(NetworkInInterface::class.java)
+        get() = RetrofitClient.getClient(BASE_URL)!!.create(
+            NetworkInInterface::class.java)
 
 }

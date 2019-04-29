@@ -1,4 +1,4 @@
-package com.dx777.yasirnramaya.aburafelsystem.login
+package com.dx777.yasirnramaya.aburafelsystem.activities.login
 
 import com.google.gson.annotations.SerializedName
 

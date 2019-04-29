@@ -1,11 +1,13 @@
-package com.dx777.yasirnramaya.aburafelsystem
+package com.dx777.yasirnramaya.aburafelsystem.activities
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.chibatching.kotpref.Kotpref
-import com.dx777.yasirnramaya.aburafelsystem.login.LoginActivity
+import com.dx777.yasirnramaya.aburafelsystem.R
+import com.dx777.yasirnramaya.aburafelsystem.servies.cacheObj
+import com.dx777.yasirnramaya.aburafelsystem.activities.login.LoginActivity
 
 class SplashScreenActivity : AppCompatActivity() {
 
