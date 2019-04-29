@@ -19,9 +19,11 @@ class SplashScreenActivity : AppCompatActivity() {
             if (cacheObj.tokenCache.isEmpty()) {
                 val signInIntent = Intent(this, LoginActivity::class.java)
                 startActivity(signInIntent)
+                finish()
             } else {
                 val mainIntent = Intent(this, MainActivity::class.java)
                 startActivity(mainIntent)
+                finish()
             }
         }, 1000)
     }

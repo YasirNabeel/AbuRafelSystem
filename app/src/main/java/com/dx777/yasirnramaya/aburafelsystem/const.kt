@@ -1,7 +1,6 @@
 package com.dx777.yasirnramaya.aburafelsystem
 
 import com.chibatching.kotpref.KotprefModel
-import com.dx777.yasirnramaya.aburafelsystem.login.SignInInterface
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -45,7 +44,7 @@ object ApiUtils {
 
     val BASE_URL = "https://aborafel.herokuapp.com/api/v1/auth/"
 
-    val apiService: SignInInterface
-        get() = RetrofitClient.getClient(BASE_URL)!!.create(SignInInterface::class.java)
+    val apiService: NetworkInInterface
+        get() = RetrofitClient.getClient(BASE_URL)!!.create(NetworkInInterface::class.java)
 
 }
